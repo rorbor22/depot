@@ -1,0 +1,500 @@
+   10  apt-get update
+   11  apt-get update
+   12  apt-get update
+   13  apt-get update
+   14  service network status
+   15  service networking status
+   16  service networking stop
+   17  service networking start
+   18  apt-get update
+   19  apt-get update
+   20  service networking stop
+   21  service networking start
+   22  apt-get update
+   23  apt-get update
+   24  service networking stop
+   25  service networking start
+   26  apt-get update
+   27  exit
+   28  who
+   29  # sudo apt-get install build-essential 
+   30  apt-get install build-essential 
+   31  sudo apt-get install git curl 
+   32  sudo bash < <(curl -s https://rvm.beginrescueend.com/install/rvm) 
+   33  rvm list known 
+   34  ruby -v
+   35  cd /usr/local/rvm/src/
+   36  ls
+   37  ls -l
+   38  rvm install ruby-1.8.7 ruby-1.9.3-p327
+   39  rvm reinstall ruby-1.9.3-p327
+   40  rvm  use ruby-1.9.3-p327
+   41  gem install bundler rails 
+   42  who
+   43  rails -v
+   44  whereis rails
+   45  whereis gem
+   46  whereis ruby
+   47  whereis bundler
+   48  cd /var/www/ror/
+   49  ls -l
+   50  cd testapp/script/
+   51  ls
+   52  ls -l
+   53  cd /home/boris/rai_bf/
+   54  rails cha1
+   55  rails  new cha1
+   56  cd cha1/
+   57  ls -l
+   58  cd script/
+   59  ls -l
+   60  ruby -v
+   61  whereis ruby 
+   62  cd /usr/lib/ruby
+   63  ls
+   64  cd 1.8/
+   65  ls
+   66  cd ~
+   67  pwd
+   68  cd /home/boris/rai_bf/cha1/
+   69  ls
+   70  ls -l script/
+   71  ruby script/server
+   72  /usr/local/rvm/bin/rvm 1.8.7 exec ruby script/server
+   73  /usr/local/rvm/bin/rvm 1.9.3-p327 exec ruby script/server
+   74  sudo apt-get install mysql-client mysql-server libmysql-ruby libmysqlclient-dev
+   75  mysql -u root -p
+   76  mysql -u root -p
+   77  mysql -u root -p
+   78  mysql -u root -p
+   79  cd /root
+   80  mkdir
+   81  mkdir a1
+   82  cd a1
+   83  touch a.txt
+   84  echo 'sudo apt-get install mysql-client mysql-server libmysql-ruby libmysqlclient-dev' > /root/a1/a.txt
+   85  sudo apt-get install mysql-client mysql-server libmysql-ruby libmysqlclient-dev
+   86  mysql -u root -p
+   87  mysql -u root -p
+   88  rails new testapp1 -d mysql
+   89  cd /var/www/ror
+   90  rails new testapp1 -d mysql
+   91  nano /var/www/ror/testapp1/config/database.yml
+   92  cd ../Public/
+   93  cd testapp
+   94  ls -l
+   95  cd ../testapp1/public/
+   96  rails server -e production
+   97  rails generate controller home index
+   98  gem install execjs
+   99  rails generate controller home index
+  100  gem install execjs
+  101  rails generate controller home index
+  102  cd ..
+  103  RAILS_ENV=production bundle exec rake assets:precompile
+  104  cd /var/www/ror/testapp/public
+  105  rails server -e production
+  106  apt-get install  libreadline5-dev 
+  107  ls -l
+  108  ls Public/
+  109  ren Public/  /public
+  110  rename Public/  /public
+  111  cd Public/
+  112  wget ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+  113  who
+  114  mc
+  115  nano /etc/sudoers
+  116  su boris
+  117  apt-get update
+  118  nano sources.list
+  119  nano /etc/apt/sources.list
+  120  apt-get update
+  121  apt-get upgraade
+  122  apt-get upgrade
+  123  su boris
+  124  ./configure
+  125  ls
+  126  ./configure
+  127  make
+  128  make install
+  129  cd /media/
+  130  ls
+  131  cd 2\
+  132  cd 2E56-01EE/
+  133  mc
+  134  rails cha1
+  135  cd /usr/local/rvm/gems/ruby-1.9.3-p327/gems/execjs-1.4.0/lib/execjs/
+  136  nano runtimes.rb
+  137  cd /usr/local/rvm/gems/ruby-1.9.3-p327/gems/execjs-1.4.0/lib/
+  138  ls
+  139  nano execjs.rb
+  140  cat a.txt 
+  141  apt-get install mysql-client mysql-server 
+  142  apt-get install libmysql-ruby libmysqlclient-dev
+  143  ls
+  144  pwd
+  145  mc
+  146  mysql
+  147  mysql -u root
+  148  mysql -u root -p
+  149  mysql -u ror -p
+  150  mysql -u ror -p
+  151  mysql -u boris -p
+  152  su ror
+  153  rails server -e production
+  154  reboot
+  155  rails server -e production
+  156  rvm -v
+  157  ruby -v
+  158  rails -v
+  159  ruby -ropenssl -rzlib -rreadline -e "puts :Hello"
+  160  rvm get head && rvm reload
+  161  /usr/local/rvm/bin/rvm 1.8.7 exec ruby script/server 
+  162  ruby -v
+  163  /usr/local/rvm/bin/rvm 1.9.3p327 exec ruby script/server
+  164  /usr/local/rvm/bin/rvm 1.9.3p327 exec ruby script/server
+  165  /usr/local/rvm/bin/rvm1.9.3p327 exec ruby script/server
+  166  /usr/local/rvm/bin/rvm 1.9.3p327 exec ruby script/server
+  167  ruby -v
+  168  rvm install ruby
+  169  sudo apt-get install zlib1g-dev
+  170  cd /usr/local/rvm/src/ruby-1.9.3-p327/ext
+  171  ruby extconf.rb
+  172  ls
+  173  ruby extmk.rb
+  174  rails new testapp -d mysql
+  175  rvm -v
+  176  rvm install 1.9.3
+  177  rvm reinstall 1.9.3
+  178  cd /usr/local/rvm/
+  179  rvm install 1.9.3 --with-openssl-dir=$HOME/.rvm/
+  180  rvm reinstall 1.9.3 --with-openssl-dir=$HOME/.rvm/
+  181  rvm 1.9.3 do gem install mysql2
+  182  rails new testapp -d mysql
+  183  su ror
+  184  which gem
+  185  gem -v
+  186  subl ~/.gemrc
+  187  nano  ~/.gemrc
+  188  cd ~
+  189  pwd]
+  190  pwd
+  191  nano /usr/local/rvm/bin/gem
+  192  nano /usr/local/rvm/bin/gemrc
+  193  cd /usr/local/rvm/bin/
+  194  ls -l
+  195  ls -l
+  196  rails -v
+  197  gem install rails -v 3.2.9
+  198  rails -v
+  199  apt-get install libxslt-dev libxml2-dev libsqlite3-dev
+  200  rails -v
+  201  cd /media/
+  202  ls
+  203  ls sf_zer/
+  204  apt-get install libcurl4-gnutls-dev libexpat1-dev gettext   libz-dev libssl-dev
+  205  git -v
+  206  git --version
+  207  t clone https://github.com/git/git.git
+  208  apt-get install git
+  209  git clone https://github.com/git/git.git
+  210  git --version
+  211  apt-get install git-core
+  212  git clone git://git.kernel.org/pub/scm/git/git.git
+  213  git --version
+  214  gvim
+  215  gVim
+  216  apt-get install gVim
+  217  apt-get install subl
+  218  apt-get install TextMate
+  219  ls
+  220  cd rails_projects/first_app/
+  221  su ror
+  222  git init
+  223  ls -l
+  224  ls -lh
+  225  mc
+  226  git add .
+  227  git status
+  228  git commit -m "Initial commit"
+  229  git log
+  230  q
+  231  git remote add origin https://github.com/rorbor22/bor22_repo.git
+  232  git push -u origin master
+  233  git push -u origin master
+  234  ls -l /media
+  235  ls -l /media/sf_zer/
+  236  git config --global user.name "ror"
+  237  git config --global user.email your.email@example.com
+  238  git config --global user.email shohin_b@www.mail.ru
+  239  apt-get install gedit-plugins
+  240  apt-get install gedit-plugins
+  241  git config --global core.editor "subl -w"
+  242  gedit -w
+  243  gedit -f
+  244  gedit --help
+  245  git config --global core.editor "gedit"
+  246  rm -r testapp/
+  247  ls
+  248  ls -l rs235/
+  249  mv rs235/ myra/
+  250  ls -l rs235/
+  251  ls -l rs235/
+  252  ls
+  253  cd myra
+  254  rails -v
+  255  cd ..
+  256  $ mkdir rails_projects
+  257  $ cd rails_projects
+  258   mkdir rails_projects
+  259   cd rails_projects
+  260  rails new first_app
+  261  ls
+  262  cd first_app/
+  263  nano Gemfile
+  264  ps -ax
+  265  fg %1
+  266  gedit Gemfile
+  267  nano Gemfile
+  268  $ bundle install
+  269  bundle install
+  270  rails server
+  271  ls
+  272  git status
+  273  git push
+  274  fdisk -l
+  275  df
+  276  rails -v
+  277  history | grep server
+  278  rails server -e production
+  279  rails server 
+  280  ls -l
+  281  cd rails_projects/
+  282  ls
+  283  cd first_app/
+  284  rails server 
+  285  aptitude search xclip
+  286  aptitude search xclip
+  287  aptitude search clip
+  288  aptitude search xclip
+  289  aptitude search clip
+  290  xclipboard --help
+  291  xclipboard -sel clip < echo "dsdsds"
+  292  xclipboard -sel clip < "dsdsds"
+  293  xclipboard -sel clip
+  294  man xclipboard
+  295  man cli
+  296  xclipboard 
+  297  man xclipboard
+  298  ps ax | grep clip
+  299  apt-get update
+  300  apt-get update
+  301  gem install heroku
+  302  gem install heroku
+  303  apt-get install xclip
+  304  ifconfig
+  305  ping 172.28.241.2
+  306  apt-get install xclip
+  307  xclip -sel clip < ~/.ssh/id_rsa.pub
+  308  xclip -sel clip < ./.ssh/id_rsa.pub
+  309  xclipboard --h
+  310  xclipboard -h
+  311  xclipboard -sel clip < ./.ssh/id_rsa.pub
+  312  clip -h
+  313  cli -h
+  314  cli -h
+  315  fdisk -l
+  316  `
+  317  mount -t vboxsf /zer /media/sf_zer/
+  318  mount -t vboxfs /zer /media/sf_zer/
+  319  mount -t vboxsf zer /media/sf_zer/
+  320  mc
+  321  apt-get install gimp
+  322  gimp
+  323  poweroff
+  324  ifconfig
+  325  ping 192.168.2.241
+  326  ping 172.28.241.2
+  327  ping 192.168.2.241
+  328  rails new depot
+  329  gedit
+  330  ls log_for_depot/
+  331  cat  log_for_depot/*.txt
+  332  cd depot/
+  333  su ror
+  334  apt-get update
+  335  rake test
+  336  git status
+  337  $ bundle update
+  338  bundle update
+  339  cd /usr/local/rvm/rubies/ruby-1.9.3-p327/lib/ruby/site_ruby/1.9.1/rubygems/
+  340  ls
+  341  cd /usr/local/rvm/rubies/ruby-1.9.3-p327/lib/ruby/site_ruby/1.9.1/rubygems/mc
+  342  mc
+  343  history > boris_16-05-2913.txt
+  344  gedit  boris_16-05-2913.txt
+  345  cp Gemfile Gemfi_orig_le 
+  346  ifconfig 
+  347  mc
+  348  cat > install_heroky_file.txt
+  349  cat install_heroky_file.txt 
+  350  ls
+  351  chmod +x install_heroky_file.txt 
+  352  ./install_heroky_file.txt 
+  353  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  354  cat > site_resolve_problem.txt
+  355  ls
+  356  git checkout -b modify-README
+  357  git checkout -b depos_shrt1
+  358  git init
+  359  git checkout -b depos_shrt1
+  360  git add .
+  361  git commit -m "Begin-depot"
+  362  git status
+  363  git log
+  364  git status
+  365  ls
+  366  ls -l .*
+  367  cd ../../first_app/
+  368  git push
+  369  cd ../work/depot/
+  370  history | grep github
+  371  git remote add origin https://github.com/rorbor22/depot.git
+  372  git push -u origin master
+  373  gedit
+  374  bundle update
+  375  bundle install
+  376  git checkout -b izmenenie-README
+  377  git status
+  378  git branch
+  379  mc
+  380  it commit -a -m "Improve the README file"
+  381  git commit -a -m "Insert1_example"
+  382  git checkout master
+  383  git merge izmenenie-README
+  384  git push
+  385  bundle install --without production
+  386  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  387  wget -qO- https://toolbelt.heroku.com/install-debian.sh 
+  388  wget -qO- https://toolbelt.heroku.com/install-debian.sh 
+  389  heroku
+  390  heroku install
+  391  heroku login
+  392  bundle install --without production
+  393  heroky login
+  394  heroku login
+  395  heroku login
+  396  heroku create
+  397  git push heroku master
+  398  ping  heroku
+  399  ping  heroku.com
+  400  ssh-keygen -t rsa
+  401  heroku  keys:add
+  402  git push heroku master
+  403  ssh root@vk-02
+  404  cd ~
+  405  pwd
+  406   mkdir .proxychains
+  407   mkdir .proxychains
+  408  mc
+  409   cd ~/dev/build/proxychains
+  410   cd ~/dev/proxychains
+  411   cd ~/dev/.proxychains
+  412   cd ~/.proxychains
+  413  cp etc/proxychains.conf ~/.proxychains
+  414  cp /etc/proxychains.conf ~/.proxychains
+  415  gedit proxychains.conf 
+  416  pwd
+  417  cd ..
+  418  ls ba*
+  419  ls 
+  420  mc
+  421  mc
+  422  ssh root@vk-02
+  423  histore | top 10
+  424  history | top 10
+  425  history | grep push
+  426  git push heroku master
+  427  git push heroku master
+  428  git push -v heroku master
+  429  proxychains git push -v heroku master
+  430  heroku keys
+  431  cat /var/www/ror/.ssh/*her*\
+  432  cat /var/www/ror/.ssh/*he*
+  433  heroku logs
+  434  heroku apps
+  435  git push -v heroku master
+  436  heroku logs
+  437  proxychains git push -v heroku master
+  438  proxychains git push -v heroku master
+  439  heroku logs
+  440  proxychains git push -v heroku master
+  441  proxychains git push -v heroku master
+  442  heroku logs
+  443  git remote -v
+  444  file 
+  445  mc
+  446  cd rails_projects/work/
+  447  ls
+  448  cd depot/
+  449  heroku login
+  450  heroku -h
+  451  heroku help apps
+  452  heroku apps
+  453  heroku help apps:open
+  454  heroku openyoung-earth-4405:open
+  455  heroku young-earth-4405:open
+  456  git push heroku master
+  457  proxychains  git push heroku master
+  458   git -v push heroku master
+  459   git  push -v heroku master
+  460  heroku young-earth-4405:open
+  461  heroku help apps:open
+  462  heroku apps
+  463  heroku help 
+  464  heroku logs
+  465  ssh -vvv git@heroku.com
+  466  proxychains ssh -vvv git@heroku.com
+  467  git config -l
+  468  heroky keys
+  469  heroku keys
+  470  ps -ax
+  471  kill -9 3553
+  472  heroky keys
+  473  heroku keys
+  474  heroku help keys
+  475  heroku keys:clear
+  476  heroky keys
+  477  heroku keys
+  478  ps -ax
+  479  kill -9 3607
+  480  ssh-add -D
+  481  h-keygen -t rsa -C "email@gmail.com" -f  ~/.ssh/id_rsa_heroku
+  482  h-keygen -t rsa -C "shohin_b@mail.ru" -f  ~/.ssh/id_rsa_heroku
+  483  ssh-keygen -t rsa -C "shohin_b@mail.ru" -f  ~/.ssh/id_rsa_heroku
+  484  ssh-add ~/.ssh/id_rsa_heroku
+  485  heroku keys:add ~/.ssh/id_rsa_heroku.pub
+  486  heroku keys
+  487   git  push -v heroku master
+  488  mc
+  489  cd /root/.proxychains/
+  490  mc
+  491  cd rails_projects/work/depot/
+  492  mc
+  493  [M M$
+  494  [6~
+  495  cd /root/.ssh/
+  496  ls
+  497  mc
+  498  cd ..
+  499  heroku login
+  500  git push -v heroku master
+  501  heroku config
+  502  heroku keys
+  503  ssh-key status
+  504  ssh-keygen list
+  505  git push -v heroku master
+  506  $ ssh -T git@github.com
+  507  history | grep git
+  508  history | grep git > history_git.txt
+  509  history  > history_all.txt

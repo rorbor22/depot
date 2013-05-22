@@ -1,0 +1,71 @@
+   31  sudo apt-get install git curl 
+  205  git -v
+  206  git --version
+  207  t clone https://github.com/git/git.git
+  208  apt-get install git
+  209  git clone https://github.com/git/git.git
+  210  git --version
+  211  apt-get install git-core
+  212  git clone git://git.kernel.org/pub/scm/git/git.git
+  213  git --version
+  222  git init
+  226  git add .
+  227  git status
+  228  git commit -m "Initial commit"
+  229  git log
+  231  git remote add origin https://github.com/rorbor22/bor22_repo.git
+  232  git push -u origin master
+  233  git push -u origin master
+  236  git config --global user.name "ror"
+  237  git config --global user.email your.email@example.com
+  238  git config --global user.email shohin_b@www.mail.ru
+  241  git config --global core.editor "subl -w"
+  245  git config --global core.editor "gedit"
+  272  git status
+  273  git push
+  336  git status
+  356  git checkout -b modify-README
+  357  git checkout -b depos_shrt1
+  358  git init
+  359  git checkout -b depos_shrt1
+  360  git add .
+  361  git commit -m "Begin-depot"
+  362  git status
+  363  git log
+  364  git status
+  368  git push
+  370  history | grep github
+  371  git remote add origin https://github.com/rorbor22/depot.git
+  372  git push -u origin master
+  376  git checkout -b izmenenie-README
+  377  git status
+  378  git branch
+  381  git commit -a -m "Insert1_example"
+  382  git checkout master
+  383  git merge izmenenie-README
+  384  git push
+  397  git push heroku master
+  402  git push heroku master
+  426  git push heroku master
+  427  git push heroku master
+  428  git push -v heroku master
+  429  proxychains git push -v heroku master
+  435  git push -v heroku master
+  437  proxychains git push -v heroku master
+  438  proxychains git push -v heroku master
+  440  proxychains git push -v heroku master
+  441  proxychains git push -v heroku master
+  443  git remote -v
+  456  git push heroku master
+  457  proxychains  git push heroku master
+  458   git -v push heroku master
+  459   git  push -v heroku master
+  465  ssh -vvv git@heroku.com
+  466  proxychains ssh -vvv git@heroku.com
+  467  git config -l
+  487   git  push -v heroku master
+  500  git push -v heroku master
+  505  git push -v heroku master
+  506  $ ssh -T git@github.com
+  507  history | grep git
+  508  history | grep git > history_git.txt
